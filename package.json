@@ -1,0 +1,29 @@
+{
+  "name": "node_intro",
+  "version": "1.0.0",
+  "description": "nothing to see here",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wictoriadrefelt/furry-waffle-bonanza.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wictoriadrefelt/furry-waffle-bonanza/issues"
+  },
+  "homepage": "https://github.com/wictoriadrefelt/furry-waffle-bonanza#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
